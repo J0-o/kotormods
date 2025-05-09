@@ -27,9 +27,10 @@ for %%L in (
 	"             0000000000000000000000000000000000             "
 	"                  00    00       000000000                  "
 ) do echo %%~L
+echo While you sleep in the medical room, C3-FD is patching your game.
 echo ============================================================
-echo 3C-FD Patcher by J
-echo Includes: 4GB Memory Patch, Fog Fix, Reflections Fix, Color Adjustment
+echo 3C-FD Patcher v1.2 by J
+echo Includes: 4GB Memory Patch, Fog Fix, Reflections Fix, Color Adjustment, Music Volume Fix
 echo ============================================================
 
 echo Usage Agreement:
