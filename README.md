@@ -1,8 +1,8 @@
 # Knights of the Old Republic MODS & FIXES
 ## KOTOR 1
 ### Resolution Patcher
-Alternative to UNIWS patcher. EBnables for widescreen resolutions and borderless fullscreen.
-Place .bat script into you swkotor directory and run it. It will ask for your prefered resolution and it will swkotor.exe and edit the swkotor.ini.
+Alternative to UNIWS patcher. Enables for widescreen resolutions and borderless fullscreen.
+Place .bat script into you swkotor directory and run it. It will ask for your prefered resolution and it will patch swkotor.exe and edit the swkotor.ini.
 ## KOTOR 2
 ### C3FD Patcher
 Restores fog and reflections which were broken in the Aspyr update. Works with both Steam and GOG versions. Only works on an unmodified swkotor2.exe. WIndows systems only.
