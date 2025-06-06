@@ -1,4 +1,7 @@
 # Knights of the Old Republic MODS & FIXES
+## BOTH
+### Texture Conflict Checker
+Texture conflict checker for K1 and K2. Place in your game directory and open it. It will list all conflicting textures, in the override folder, and allow you to choose which version to keep. Unwanted textures are moved to a texture_duplicates folder and can be restored through the tool. 
 ## KOTOR 1
 ### Resolution Patcher
 Alternative to UNIWS patcher. Enables for widescreen resolutions and borderless fullscreen.
