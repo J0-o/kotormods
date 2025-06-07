@@ -1,8 +1,8 @@
 ::[Bat To Exe Converter]
 ::
-::fBE1pAF6MU+EWHreyHcjLQlHcA6NL2OvOpET6/326uSTsXE2e9YQSrD29eaxFMUg3mzKUqo502JOjdkJMxhXcBSnZwwglm1Ks2eOMtWgpxfiQkuCqFsjSgU=
+::fBE1pAF6MU+EWHreyHcjLQlHcA6NL2OvOpET6/326uSTsXE2e9YQSrD29eaxFMUg3mzKUqo502JOjdkJMxhXcBSnZwwglm1Ks2eOMtWg/QT1SSg=
 ::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJGyX8VAjFBFbXwyXAE+1BaAR7ebv/NasjXkyZt0SV93k7pG9FMk9zXnwcI45w2hfp8gDAh1UdxG/UQw8rG1Js3a5I8KEsAfkSUPH70g/ew==
+::fBw5plQjdCyDJGyX8VAjFBFbXwyXAE+1BaAR7ebv/NasjXkyZt0SV93k7pG9FMk9zXnwcI45w2hfp8gDAh1UdxG/UQw8rG1Js3a5ecyIsDPoSUeHqEIzFAU=
 ::YAwzuBVtJxjWCl3EqQJgSA==
 ::ZR4luwNxJguZRRnk
 ::Yhs/ulQjdF+5
@@ -15,9 +15,9 @@
 ::dAsiuh18IRvcCxnZtBJQ
 ::cRYluBh/LU+EWAnk
 ::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQJgZko0
-::ZQ05rAF9IBncCkqN+0xwdVsEAlXi
-::ZQ05rAF9IAHYFVzEqQJQ
+::cxY6rQJ7JhzQF1fEqQJhZko0
+::ZQ05rAF9IBncCkqN+0xwdVsFAlXi
+::ZQ05rAF9IAHYFVzEqQIbJw9bXkS2OXOuE6cZqMvz6umMp199
 ::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
 ::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
 ::cRolqwZ3JBvQF1fEqQJQ
@@ -27,22 +27,19 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFBFbXwyXAE+1BaAR7ebv/NasjXkyZt0SV93k7pG9FMk9zXnwcI45w2hfp8gDAh1UdxG/UQw8rG1Js3a5PMiIvB3eXk2R8l4iHlp3j2bThy4pX8U51JNN1ji7nA==
+::Zh4grVQjdCyDJGyX8VAjFBFbXwyXAE+1BaAR7ebv/NasjXkyZt0SV93k7pG9FMk9zXnwcI45w2hfp8gDAh1UdxG/UQw8rG1Js3a5PMiIvB3eXk2R8l4iHlp3j2bThy4pX8U51JJN1ji7nA==
 ::YB416Ek+ZG8=
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
 setlocal
-
-REM Set your target folder here (or leave empty to prompt)
+:: Target Folder
 set "TARGET_FOLDER=override"
+:: Powsershell Scripts
+set "PS_SCRIPT=.ktc\txchck.ps1"
 
-REM Set your PowerShell scripts
-set "PS_SCRIPT=txchck.ps1"
-
-REM Run the first PowerShell script to generate the lists
+::Run PowerShell scripts
 powershell -NoProfile -ExecutionPolicy Bypass -File "%PS_SCRIPT%" "%TARGET_FOLDER%"
-
 
 endlocal
